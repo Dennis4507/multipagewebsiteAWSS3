@@ -1,19 +1,19 @@
 # multipagewebsiteAWSS3
 Hosting a multi-page website on Amazon S3
 
-Here is a detailed step-by-step guide on hosting a static website on Amazon S3, including common issues and how to resolve them:
-Step-by-step guide to hosting a static website on Amazon S3
-1. Prepare files Organize your website files locally in a clear structure . This could look like this:
-•/my-website
-    ◦ (Your homepage)├── index.html
-    ◦├── about.html
-    ◦├── contact.html
-    ◦├── styles/
-        ▪└── style.css
-    ◦├── scripts/
-        ▪└── main.js
-    ◦└── images/
-        ▪└── logo.png You can host all common static content such as HTML, CSS, JavaScript, images and videos.
+Here is a detailed step-by-step guide on how i hosted my static Resume website on Amazon S3, also included are the  common issues i faced and how to resolved them:
+
+
+
+I used VS code to deploy and edit my website. I build the  Website in HTML, CSS AND Javascript. 
+
+I costomized an already made theme to my liking to get the mobile friendly responsiveness and also added the cascading project segment as well as the multipage aspect of the website. 
+
+![alt text](<bilder/VS Code Resume Website (195).PNG>)
+    
+    
+    
+   
 2. Create S3 bucket Go to the AWS S3 console .
 • Create a bucketIf you want to use a custom domain name (e.g. ), the bucket should be named exactly like your domainwww.example.com.
 • Make sure that the settings for blocking public access are disabled. In the "Permissions" tab, click "Block Public Access" and uncheck "Block all public access". Confirm the changes.
