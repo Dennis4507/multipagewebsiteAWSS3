@@ -12,15 +12,32 @@ I costomized an already made theme to my liking to get the mobile friendly respo
 ![alt text](<bilder/VS Code Resume Website (195).PNG>)
     
     
-    
-   
-2. Create S3 bucket Go to the AWS S3 console .
-• Create a bucketIf you want to use a custom domain name (e.g. ), the bucket should be named exactly like your domainwww.example.com.
-• Make sure that the settings for blocking public access are disabled. In the "Permissions" tab, click "Block Public Access" and uncheck "Block all public access". Confirm the changes.
-3. Upload files
-• Upload all your website files to the S3 bucket.
-• Make sure you maintain the folder structure when uploading your filesYou can do this via the S3 console, the AWS CLI, or a CI/CD pipeline.
+I worked on the website, changed the CSS, HTML and Javascript to achieve a prefered design and layout.
+
+Then Logged into AWS and created an S3 bucket and named the bucket named 
+
+denisriungu.de bucket
+![alt text](<bilder/Screenshot (230).png>)
+
+
+
+
+ 
+Then made sure hat the settings for blocking publich access are disabled 
+![alt text](<bilder/Screenshot (229).png>)
+
+Uploaded the website files to the S3 bucket, making sure we maintain the folder structure.
+
+I uploaded the files using Githubactions CI/CD pipeline 
+
+(Link to github actions cicd project) To show how we uploaded website files to AWS S3 Bucket
+
+![alt text](<bilder/Screenshot (231).png>)
+
+
 4. Configure static website hosting This is a crucial step to make your website accessible .
+
+In the S3 console, we activated the "stastic website hosting section"
 • In the S3 console, go to your bucket and click on the "Properties" tab.
 • Scroll to the "Static website hosting" section.
 • Activate hosting.
