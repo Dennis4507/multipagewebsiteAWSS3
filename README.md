@@ -7,7 +7,7 @@ Here is a detailed step-by-step guide on how i hosted my static Resume website o
 
 1. I used VS code to deploy and edit my website. I build the  Website in HTML, CSS AND Javascript. 
 
-I costomized an already made theme to my liking to get the mobile friendly responsiveness and also added the cascading project segment as well as the multipage aspect of the website. 
+I customized an already made theme to my liking to get the mobile friendly responsiveness and also added the cascading project segment as well as the multipage aspect of the website. 
 
 ![alt text](<bilder/VS Code Resume Website (195).PNG>)
     
