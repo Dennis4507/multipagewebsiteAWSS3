@@ -3,6 +3,8 @@ Hosting a multi-page website on Amazon S3
 
 Here is a detailed step-by-step guide on how i hosted my static Resume website on Amazon S3, also included are the  common issues i faced and how to resolved them:
 
+![alt text](<bilder/Screenshot (377).png>)
+
 
 
 1. I used VS code to deploy and edit my website. I build the  Website in HTML, CSS AND Javascript. 
